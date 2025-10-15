@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style">
+
+<title>Hunter x Hunter GRID</title>
+
+<style>
+    body {
+        background-color: #D5DBE3;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 25px;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns:200px 1fr 400px; 
+        grid-template-rows: auto 1fr auto; 
+        padding: 20px;
+        max-width: 1450px;
+        margin: 0 auto;
+    }
+
+    .box {
+        background-color: #F0F2F7;
+        border: 2px solid #6F8BAB;
+        padding: 20px;
+        font-size: 20px;
+        text-align: center;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        height: 30px;
+    }
+
+    .header {
+        grid-column: 1 / 4;
+    }
+
+    .footer {
+        grid-column: 1 / 4;
+    }
+
+    .left-sidebar {
+        grid-column: 1 / 2;
+        height: 770px;
+    }
+    .left-sidebar {
+        text-decoration: none;
+    }
+
+    .main-content {
+        grid-column: 2 / 3;
+        height: 770px;
+    }
+
+    .right-sidebar {
+        grid-column: 3 / 4;
+        height: 770px;
+        overflow-y: scroll;
+    }
+
+    ul {
+        text-align: left;
+        font-size: 17px;
+        margin-top: 30px;
+        text-decoration: none;
+    }
+
+    .left-sidebar a {
+        text-decoration: none;
+        border-radius: 6px;
+    }
+    .nav > a:hover {
+        background-color: #DDE4EB;
+    }
+
+    .nav > a {
+        padding:8px 16px;
+    }
+    img {
+        width: 800px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    a.active{
+        background-color: #DDE4EB;
+    }
+    
+
+</style>
+</head>
+
+<body> 
+    <div class="grid-container">
+        <div class="box header" style="text-align: center; margin-top: 20px; font-family: Trebuchet MS; font-size: 25px; color:#324F78"><b>Hunter x Hunter</div></b>
+
+        <!-- Left Sidebar -->
+        <div class="box left-sidebar">
+            <nav style="text-align: left; margin-top: 30px;">
+        <div class="nav" style="display: flex; justify-content: space-between; max-width: 600px; margin: auto; flex-direction: column;">
+
+            <a href="home.html" style="text-decoration:none; font-family: Trebuchet MS; color:#163C5C; margin-bottom: 10px;"><b>Home</b></a>
+
+            <a href="enhancers.html" style="text-decoration:none; font-family: Trebuchet MS; color:#163C5C; margin-bottom: 10px;"><b>Enhancers</b></a>
+
+            <a class="active" href="emitters.html" style="text-decoration:none; font-family: Trebuchet MS; color:#163C5C; margin-bottom: 10px;" ><b>Emitters</b></a>
+
+            <a href="conjurers.html" style="text-decoration:none; font-family: Trebuchet MS; color:#163C5C; margin-bottom: 10px;"><b>Conjurers</b></a>
+
+            <a href="manipulators.html" style="text-decoration:none; font-family: Trebuchet MS; color:#163C5C; margin-bottom: 10px;"><b>Manipulators</b></a>
+
+            <a href="transmuters.html" style="text-decoration:none; font-family: Trebuchet MS; color:#163C5C; margin-bottom: 10px;"><b>Transmuters</b></a>
+
+            <a href="specialists.html" style="text-decoration:none; font-family: Trebuchet MS; color:#163C5C; margin-bottom: 10px;"><b>Specialists</b></a>
+
+        </div>
+    </nav>
+        </div>
+
+        <!-- Main Content -->
+        <div class="box main-content">
+            <img style="margin-top: 50px;" src="Emitter_Diagram.webp" alt="emitter">
+        </div>
+
+        <!-- Right Sidebar -->
+        <div class="box right-sidebar">
+            <p style="font-family: Trebuchet MS; justify-content: center;">Emitters are Nen users who specialize in releasing or projecting their aura away from their bodies. This allows them to create 
+            abilities that involve shooting energy blasts, controlling aura at a distance, or generating explosive force. Their power focuses on 
+            speed, range, and impact, making them highly effective in offensive and mid-to-long-range combat.</p> <br>
+
+            <h3 style="font-family: Trebuchet MS; justify-content: center;">What does an Emitter do?</h3>
+
+            <p style="font-family: Trebuchet MS; justify-content: center;">Emitters specialize in projecting their aura away from their body, allowing them to create powerful long-range attacks or release 
+            energy blasts. Their abilities often involve speed, impact, and precision at a distance, making them excellent for offensive and ranged
+            combat. Emitters can also manipulate aura that has been separated from their body for a short time, though maintaining control over it 
+            becomes harder the farther it travels.</p> <br>
+
+            <h4 style="font-family: Trebuchet MS; text-align: left;">Characteristics of Emitters: </h4>
+             <ul>
+                <li style="font-family: Trebuchet MS;">They excel in ranged or projectile-based combat, where aura is shot or emitted outward.</li>
+                <li style="font-family: Trebuchet MS;">Their abilities often involve explosions, beams, or rapid aura bursts that emphasize power and speed.</li>
+                <li style="font-family: Trebuchet MS;">Emitters are usually energetic, impulsive, and action-oriented individuals who prefer direct and decisive approaches.</li>
+            </ul>
+
+            <img style="border-radius: 50%; width: 120px; margin-bottom: 20px;"src="leorio_emitter.jpg" alt="Leorio">
+            <img style="border-radius: 50%; width: 120px; margin-bottom: 20px;"src="razor_emitter.jpg" alt="Razor">
+
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/3_q43qpNgRQ?si=O1azYNm_pwY_T0om" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <!-- Footer -->
+        <div class="box footer" style="font-size: 14px; font-style: italic;">Balindo, Theresa V. | Web Development 1</div>
+    </div>
+</body>
+</html>

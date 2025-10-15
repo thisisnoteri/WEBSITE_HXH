@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style">
+
+<title>Hunter x Hunter GRID</title>
+
+<style>
+    body {
+        background-color: #D5DBE3;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 25px;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns:200px 1fr 400px; 
+        grid-template-rows: auto 1fr auto; 
+        padding: 20px;
+        max-width: 1450px;
+        margin: 0 auto;
+    }
+
+    .box {
+        background-color: #F0F2F7;
+        border: 2px solid #6F8BAB;
+        padding: 20px;
+        font-size: 20px;
+        text-align: center;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        height: 30px;
+    }
+
+    .header {
+        grid-column: 1 / 4;
+    }
+
+    .footer {
+        grid-column: 1 / 4;
+    }
+
+    .left-sidebar {
+        grid-column: 1 / 2;
+        height: 770px;
+    }
+    .left-sidebar {
+        text-decoration: none;
+    }
+
+    .main-content {
+        grid-column: 2 / 3;
+        height: 770px;
+    }
+
+    .right-sidebar {
+        grid-column: 3 / 4;
+        height: 770px;
+        overflow-y: scroll;
+    }
+
+    ul {
+        text-align: left;
+        font-size: 17px;
+        margin-top: 30px;
+        text-decoration: none;
+    }
+
+    .left-sidebar a {
+        text-decoration: none;
+        border-radius: 6px;
+    }
+    .nav > a:hover {
+        background-color: #DDE4EB;
+    }
+
+    .nav > a {
+        padding:8px 16px;
+    }
+    img {
+        width: 800px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    a.active{
+        background-color: #DDE4EB;
+    }
+    
+
+</style>
+</head>
+
+<body> 
+    <div class="grid-container">
+        <div class="box header" style="text-align: center; margin-top: 20px; font-family: Trebuchet MS; font-size: 25px; color:#324F78"><b>Hunter x Hunter</div></b>
+
+        <!-- Left Sidebar -->
+        <div class="box left-sidebar">
+            <nav style="text-align: left; margin-top: 30px;">
+        <div class="nav" style="display: flex; justify-content: space-between; max-width: 600px; margin: auto; flex-direction: column;">
+
+            <a href="home.html" style="text-decoration:none; font-family: Trebuchet MS; color:#163C5C; margin-bottom: 10px;"><b>Home</b></a>
+
+            <a href="enhancers.html" style="text-decoration:none; font-family: Trebuchet MS; color:#163C5C; margin-bottom: 10px;"><b>Enhancers</b></a>
+
+            <a href="emitters.html" style="text-decoration:none; font-family: Trebuchet MS; color:#163C5C; margin-bottom: 10px;" ><b>Emitters</b></a>
+
+            <a class="active"  href="conjurers.html" style="text-decoration:none; font-family: Trebuchet MS; color:#163C5C; margin-bottom: 10px;"><b>Conjurers</b></a>
+
+            <a href="manipulators.html" style="text-decoration:none; font-family: Trebuchet MS; color:#163C5C; margin-bottom: 10px;"><b>Manipulators</b></a>
+
+            <a href="transmuters.html" style="text-decoration:none; font-family: Trebuchet MS; color:#163C5C; margin-bottom: 10px;"><b>Transmuters</b></a>
+
+            <a href="specialists.html" style="text-decoration:none; font-family: Trebuchet MS; color:#163C5C; margin-bottom: 10px;"><b>Specialists</b></a>
+
+        </div>
+    </nav>
+        </div>
+
+        <!-- Main Content -->
+        <div class="box main-content">
+            <img style="margin-top: 50px;" src="Conjurer_Diagram.webp" alt="conjurer">
+        </div>
+
+        <!-- Right Sidebar -->
+        <div class="box right-sidebar">
+            <p style="font-family: Trebuchet MS; justify-content: center;">Conjurers are Nen users who specialize in creating objects or materials out of their aura. These created items can have realistic appearances and specific functions, depending on how much detail and restriction the user adds. Conjurers are known for their precision and focus, as their abilities often require a deep understanding of the object they wish to create.</p> <br>
+
+            <h3 style="font-family: Trebuchet MS; justify-content: center;">What does a Conjurer do?</h3>
+
+            <p style="font-family: Trebuchet MS; justify-content: center;">Conjurers manifest tangible objects using their aura, which can be used for attack, defense, or utility. The more realistic or complex the object, the more conditions or limitations a Conjurer usually needs to make it function properly. Their powers often reflect discipline, logic, and careful planning.</p>
+
+            <h4 style="font-family: Trebuchet MS; text-align: left;">Characteristics of Conjurer: </h4>
+
+              <ul>
+                <li style="font-family: Trebuchet MS;">They excel at creating and using aura-formed objects with specific abilities.</li>
+                <li style="font-family: Trebuchet MS;">Their powers rely on rules and conditions, which can make them very precise and reliable</li>
+                <li style="font-family: Trebuchet MS;">Conjurers are usually calm, analytical, and detail-oriented individuals who value structure and understanding</li>
+            </ul>
+
+            <img style="border-radius: 50%; width: 120px; margin-bottom: 20px;"src="kurapika_conjurer.jpg" alt="Kurapika">
+            <img style="border-radius: 50%; width: 120px; margin-bottom: 20px;"src="shizuku_conjurer.jpg" alt="Conjurer">
+
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/kO1MqJColY0?si=muMVkRyCcNo2LluW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+           
+            
+        </div>
+
+        <!-- Footer -->
+        <div class="box footer" style="font-size: 14px; font-style: italic;">Balindo, Theresa V. | Web Development 1</div>
+    </div>
+</body>
+</html>
